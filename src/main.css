@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+:root{
+  font-family: sans-serif;
+}
+
 .input-container{
   display: flex;
   justify-content: center;
@@ -12,9 +16,46 @@
 .input-section{
   width: 800px;
   display: flex;
-  background-color: rgb(170, 220, 240);
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   flex-wrap: wrap;
 }
 
+/* this is page heading */
+.heading {
+  font-family: inherit;
+  font-size: 130%;
+  padding-top: 60px;
+}
 
+/* contains both search bar and search button */
+.submit {
+  padding-top: 30px;
+  padding-bottom: 60px;
+  display: flex;
+}
+
+/* this is the search bar */
+input {
+  padding: 0.4em 1em;
+  border: none;
+  outline: none;
+  border-radius: 24px;
+  background: #8584842b;
+  color: black;
+  font-family: inherit;
+  font-size: 100%;
+  margin-right: 10px;
+}
+
+button {
+  margin-top: 0.3em;
+  font-size: 13px;
+  padding: 0.2em;
+  background: #7c7c7c2b;
+  color: black;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.2sec ease-in-out;
+}
