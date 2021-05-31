@@ -59,3 +59,17 @@ button {
   cursor: pointer;
   transition: 0.2sec ease-in-out;
 }
+
+/* display section starts here */
+.display-section {
+  display: flex;
+  background-color: rgb(210, 254, 255);
+}
+
+/* box containing table */
+.table {
+  display: flex;
+  width: 800px;
+  justify-content: center;
+  background-color: rgb(242, 217, 255);
+}
