@@ -63,13 +63,24 @@ button {
 /* display section starts here */
 .display-section {
   display: flex;
-  background-color: rgb(210, 254, 255);
+  /* background-color: rgb(210, 254, 255); */
 }
 
 /* box containing table */
 .table {
-  display: flex;
   width: 800px;
   justify-content: center;
-  background-color: rgb(242, 217, 255);
+  /* background-color: rgb(242, 217, 255); */
+  margin: auto;
+}
+
+th, td{
+  border: 1px solid;
+  padding: 0.5rem;
+  text-align: left;
+}
+
+table{
+  border-collapse: collapse;
+  margin: 0 auto;
 }
