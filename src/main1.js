@@ -16,7 +16,8 @@ document.querySelector("#submit").addEventListener(
             const display = this.obj.sessions
               .map((item) => {
                 return `<table>
-                      <tr><td>${item.name}</td>
+                      <tr>
+                      <td>${item.name}</td>
                       <td>${item.vaccine}</td>
                       <td>${item.min_age_limit.toString()}</td>
                       <td>${item.available_capacity_dose1.toString()}<td>
